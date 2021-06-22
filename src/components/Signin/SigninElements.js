@@ -7,9 +7,9 @@ export const Container = styled.div`
   bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  top: 0;
   z-index: 0;
-  overflow: hiddden;
+  overflow: hidden;
   background: linear-gradient(
     108deg,
     rgba(1, 147, 86, 1) 0%,
@@ -23,7 +23,7 @@ export const FormWrap = styled.div`
   flex-direction: column;
   jusify-content: center;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1100px) {
     height: 80%;
   }
 `;
