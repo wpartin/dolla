@@ -36,8 +36,8 @@ export const homeObjTwo = {
   // tried require() here but as stated it was broken
   img: image2,
   alt: "Car",
-  dark: true,
-  primary: true,
+  dark: false,
+  primary: false,
   darkText: true,
 };
 
@@ -49,13 +49,13 @@ export const homeObjThree = {
   topLine: "Unrivaled Protection",
   headline: "We utilize incredible account protection",
   description:
-    "We don't think you do. Our app & website use only the latest encryption technologies to keep you, and your money, safe.",
+    "Our app & website use only the latest encryption technologies to keep you, and your money, safe.",
   buttonLabel: "Let's Bank",
   imgStart: false,
   // tried require() here but as stated it was broken
   img: image3,
   alt: "Signup",
-  dark: true,
-  primary: true,
+  dark: false,
+  primary: false,
   darkText: true,
 };
